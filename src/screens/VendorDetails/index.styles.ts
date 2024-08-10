@@ -1,0 +1,117 @@
+import {colors} from 'common/theme/colors';
+import {StyleSheet} from 'react-native';
+
+export const Styles = () => {
+  const mergeStyles = StyleSheet.create({
+    viewContact: {
+      marginLeft: 10,
+      marginTop: 3,
+      marginBottom: 10,
+      width: '75%',
+    },
+    editButton: {
+      right: 10,
+      top: 13,
+    },
+    companyLogoStyle: {
+      height: 48,
+      width: 48,
+      borderRadius: 36,
+      backgroundColor: colors.primary_003,
+      justifyContent: 'center',
+      alignItems: 'center',
+      overflow: 'hidden',
+      alignSelf: 'center',
+    },
+    showInput: {
+      height: 40,
+      borderWidth: 1,
+      paddingLeft: 10,
+      paddingTop: 6,
+      marginTop: 5,
+      backgroundColor: colors.grey_012,
+      borderColor: colors.grey_012,
+      // fontFamily: AppFonts.medium,
+      // fontSize: FontSizes.small,
+      color: colors.primary_003,
+      borderRadius: 3,
+    },
+    showDOBInput: {
+      height: 40,
+      borderWidth: 1,
+      paddingLeft: 10,
+      paddingTop: 6,
+      marginTop: 5,
+      backgroundColor: colors.grey_012,
+      borderColor: colors.grey_012,
+      // fontFamily: AppFonts.medium,
+      // fontSize: FontSizes.small,
+      color: colors.primary_003,
+      borderRadius: 3,
+    },
+    inputDescription: {
+      borderWidth: 1,
+      paddingLeft: 10,
+      paddingTop: 6,
+      marginTop: 5,
+      backgroundColor: colors.grey_012,
+      borderColor: colors.grey_012,
+      // fontFamily: AppFonts.medium,
+      // fontSize: FontSizes.regular,
+      alignItems: 'flex-start',
+      color: colors.primary_003,
+    },
+    icon: {
+      justifyContent: 'center',
+      backgroundColor: colors.grey_012,
+      height: 40,
+      marginTop: 3,
+      right: 10,
+    },
+    label: {
+      marginBottom: -7,
+      color: colors.primary_003,
+    },
+    dob: {
+      backgroundColor: colors.grey_012,
+      borderRadius: 3,
+    },
+    genderLabel: {marginBottom: -10, color: colors.primary_003},
+    saveButton: {
+      marginTop: 15,
+      // backgroundColor: colors.primary,
+      width: '47%',
+      marginBottom: 16,
+      borderRadius: 3,
+    },
+    saveRateButton: {
+      marginTop: 15,
+      // backgroundColor: colors.primary,
+      width: '100%',
+      marginBottom: 16,
+      borderRadius: 3,
+    },
+    switchContainer: {
+      width: 32,
+      height: 20,
+      borderRadius: 15,
+    },
+    switchCircle: {
+      width: 16,
+      height: 16,
+      borderRadius: 8,
+    },
+    addMoreButton: {
+      marginTop: 15,
+      // backgroundColor: colors.grey_001,
+      width: '47%',
+      borderWidth: 1,
+      // borderColor: colors.primary,
+      marginBottom: 16,
+      borderRadius: 3,
+    },
+    gender: {marginVertical: 12},
+    head: {marginBottom: 16},
+  });
+  return mergeStyles;
+};

@@ -1,0 +1,23 @@
+export default {
+  documentRepository: 'مستودع الوثائق',
+  viewFile: 'عرض المستند',
+  title: 'عنوان',
+  taskName: 'اسم المهمة',
+  description: 'وصف',
+  attachment: 'مرفق',
+  assign: 'تعيين المهمة',
+  tooltip: 'مسح / تحميل الوثيقة',
+  addDocument: 'إنشاء مستند',
+  accessLogs: 'السجلات',
+  titleError: 'العنوان مطلوب',
+  descriptionError: 'الوصف مطلوب',
+  sharetoTitle: 'مشاركة ل',
+  share: 'يشارك',
+  selectShareMsg: 'حدد مستخدمًا واحدًا على الأقل لمشاركة المستند.',
+  noAccessLogsMsg: 'لم يتم العثور على سجلات',
+  myDoc: 'مستنداتي',
+  createTask: 'إنشاء مهمة',
+  attachemntWarning:
+    'المرفقات موجودة بالفعل، للتحميل يرجى إزالة المرفق الموجود.',
+  editDocument: 'تحرير المستند',
+};

@@ -1,0 +1,29 @@
+rootProject.name = 'ForManegement'
+include ':react-native-webview'
+project(':react-native-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview/android')
+include ':react-native-audiowaveform'
+project(':react-native-audiowaveform').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audiowaveform/android')
+include ':react-native-touch-id'
+project(':react-native-touch-id').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-touch-id/android')
+include ':react-native-touch-id'
+project(':react-native-touch-id').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-touch-id/android')
+include ':react-native-touch-id'
+project(':react-native-touch-id').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-touch-id/android')
+include ':react-native-touch-id'
+project(':react-native-touch-id').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-touch-id/android')
+include ':@react-native-community_art'
+project(':@react-native-community_art').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/art/android')
+include ':@react-native-community_art'
+project(':@react-native-community_art').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/art/android')
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-splash-screen/android')
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-splash-screen/android')
+include ':@react-native-firebase_app'
+project(':@react-native-firebase_app').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-firebase/app/android')
+include ':@react-native-firebase_analytics'
+project(':@react-native-firebase_analytics').projectDir = new File(rootProject.projectDir, './../node_modules/@react-native-firebase/analytics/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+apply from: file('../node_modules/@react-native-community/cli-platform-android/native_modules.gradle'); applyNativeModulesSettingsGradle(settings)
+include ':app'

@@ -1,0 +1,102 @@
+{
+    "success": true,
+    "message": "Companies fetch successfully",
+    "data": {
+        "hierarchyData": {
+            "id": 1,
+            "hidden": true,
+            "type": "blank",
+            "children": [
+                {
+                    "name": "Abhishek Sharma",
+                    "designation": "OWNER",
+                    "id": 2,
+                    "no_parent": true,
+                    "type": "cardImg",
+                    "imgUrl": "",
+                    "color": "#02005B",
+                    "hidden": false,
+                    "companyId": "637f067f6df6fee6da3afa5c"
+                },
+                {
+                    "id": 3,
+                    "no_parent": true,
+                    "type": "blank",
+                    "hidden": true,
+                    "children": [
+                        {
+                            "name": "Henry ford",
+                            "designation": "GM",
+                            "id": 6,
+                            "hidden": false,
+                            "no_parent": true,
+                            "type": "card",
+                            "color": "#1371FF",
+                            "children": [
+                                {
+                                    "id": 7,
+                                    "hidden": false,
+                                    "type": "image",
+                                    "imgUrl": "https://images.pexels.com/photos/2235130/pexels-photo-2235130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                                    "children": [
+                                        {
+                                            "name": 4,
+                                            "designation": "Manager",
+                                            "id": 8,
+                                            "hidden": false,
+                                            "color": "#747688",
+                                            "type": "card",
+                                            "children": [
+                                                {
+                                                    "name": 1,
+                                                    "designation": "Employee",
+                                                    "id": 9,
+                                                    "hidden": false,
+                                                    "color": "#02005B",
+                                                    "type": "card"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "companyId": "637f067f6df6fee6da3afa5c"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mary Gomes",
+                    "designation": "OWNER",
+                    "id": 4,
+                    "no_parent": true,
+                    "type": "cardImg",
+                    "imgUrl": "",
+                    "color": "#02005B",
+                    "hidden": false,
+                    "companyId": "637f067f6df6fee6da3afa5c"
+                },
+                {
+                    "name": "Kiara",
+                    "designation": "OWNER",
+                    "id": 5,
+                    "no_parent": true,
+                    "type": "cardImg",
+                    "imgUrl": "",
+                    "color": "#02005B",
+                    "hidden": false,
+                    "companyId": "637f067f6df6fee6da3afa5c"
+                }
+            ]
+        },
+        "sibilingData": [
+            {
+                "source": {
+                    "id": 2
+                },
+                "target": {
+                    "id": 5
+                }
+            }
+        ]
+    }
+}

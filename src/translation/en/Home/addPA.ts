@@ -1,0 +1,17 @@
+export default {
+  selectCompany: 'Select company',
+  selectCompanyError: 'Select company first',
+  nameError: 'Personal assistant name is required',
+  name: 'Personal assistant name',
+  dob: 'Date of birth',
+  designation: 'Designation',
+  department: 'Department',
+  contactNumber: 'Contact number',
+  companyExtensionNumber: 'Company phone extension number',
+  extensionNumberPlaceholder: '(219) 555-0114',
+  email: 'Work email',
+  emailPlaceholder: 'Work email address',
+  companyExtensionPlaceholder: '1',
+  editPA: 'Edit PA',
+  deleteAlert: 'Are you sure want to delete this personal assistant?',
+};

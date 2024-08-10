@@ -1,0 +1,23 @@
+export default {
+  documentRepository: 'Document repository',
+  viewFile: 'View document',
+  title: 'Title',
+  taskName: 'Task name',
+  description: 'Description',
+  attachment: 'Attachment',
+  assign: 'Assign task',
+  tooltip: 'Scan/Upload document',
+  addDocument: 'Create document',
+  accessLogs: 'Logs',
+  titleError: 'Title is required',
+  descriptionError: 'Description is required',
+  sharetoTitle: 'Share to',
+  share: 'Share',
+  selectShareMsg: 'Select at least one user to share document.',
+  noAccessLogsMsg: 'No logs found',
+  myDoc: 'My documents',
+  createTask: 'Create task',
+  attachemntWarning:
+    'Already attachment presenet, to upload please remove existing attachment.',
+  editDocument: 'Edit document',
+};

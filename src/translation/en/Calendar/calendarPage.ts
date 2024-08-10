@@ -1,0 +1,16 @@
+export default {
+  head: 'Calendar',
+  createEvent: 'Create event',
+  viewCalendar: 'View calendar',
+  today: 'Today',
+  events: 'Events',
+  inviteMembers: 'Invite members',
+  invitationSent: 'Invitation should be sent',
+  invitationWillSent: 'Invitation will be sent',
+  selectMember: 'Select member',
+  managers: 'Managers',
+  employees: 'Employees',
+  createEvents: 'Create events',
+  reminder: 'Reminder',
+  custNotify: 'Custom notification',
+};

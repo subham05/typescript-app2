@@ -1,0 +1,16 @@
+export default {
+  head: 'Points earned',
+  totalEmails: 'Total number of emails',
+  emailsReceived: 'Emails received',
+  emailsSent: 'Emails Sent',
+  ratio: 'Ratio',
+  taskCompletion: 'Task completion',
+  finalResult: 'Final result',
+  definition: 'Definition of result',
+  excellent: 'Excellent',
+  good: 'Good',
+  satisfactory: 'Satisfactory',
+  average: 'Average',
+  belowAverage: 'Below average',
+  button: 'View actual performance',
+};

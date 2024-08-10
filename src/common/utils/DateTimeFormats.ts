@@ -1,0 +1,17 @@
+export enum DateTimeFormats {
+  MonthDateYear = 'MMM DD, YYYY',
+  YearMonthDay = 'YYYY-MM-DD',
+  DayMonthYear = 'DD-MM-YYYY',
+  Time = 'HH:mm',
+  TimeAMPM = 'hh:mm A',
+  MonthDate = 'MMM DD',
+  ShortMonthDateYear = 'MM DD, YYYY',
+  MonthDateYear2 = 'MMM DD, YYYY;',
+  MonthSingleDateYear = 'MMM D,YYYY',
+  minutesSeconds = 'mm:ss',
+  monthYear = 'MMM, YYYY',
+  year = 'YYYY',
+  longMonth = 'MMMM',
+  shortMonth = 'MMM',
+  Today = 'Today',
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:background="@color/primary"
+  xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:theme="@style/AppTheme.ReactNativeLuncher" android:layout_width="match_parent" android:gravity="center" android:layout_height="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--  <com.airbnb.lottie.LottieAnimationView android:id="@+id/animationView" android:layout_width="match_parent" android:layout_height="wrap_content" app:lottie_rawRes="@raw/logo_animation" app:lottie_autoPlay="true" app:lottie_loop="false" />-->
+
+
+  <!--    <ImageView-->
+  <!-- android:layout_width="wrap_content"-->
+  <!-- android:layout_height="wrap_content"-->
+  <!-- android:src="@mipmap/ic_launcher_round" />-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

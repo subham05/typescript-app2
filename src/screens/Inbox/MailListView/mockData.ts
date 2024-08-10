@@ -1,0 +1,113 @@
+import {MailInboxRowInterface} from '../MailItem';
+
+export const inboxDataSample: MailInboxRowInterface[] = [
+  {
+    name: 'Mark Russell',
+    message: 'Please look into the task today, we need to get that working',
+    time: '1:30PM',
+    seen: true,
+    type: 'Actionable',
+  },
+  {
+    name: 'Jenny Hopps',
+    message: 'We need to get that working',
+    time: '2:30AM',
+    seen: true,
+    type: 'Informative',
+  },
+  {
+    name: 'Athena Madison',
+    message: 'Please  to get that working',
+    time: '1:30PM',
+    seen: false,
+    type: 'Actionable',
+  },
+  {
+    name: 'Namrata Sinha Namrata Sinha Namrata Sinha Namrata Sinha Namrata Sinha Namrata Sinha',
+    message:
+      'We need to get that working Namrata Sinha Namrata Sinha Namrata Sinha',
+    time: '2:30AM',
+    seen: false,
+    status: 'Close',
+    type: 'Informative',
+  },
+  {
+    name: 'Gabriel Mani',
+    message: 'We need to get that working',
+    time: '1:30PM',
+    seen: true,
+  },
+  {
+    name: 'Raj Choudhury',
+    message: 'Project Crypto has been started, how are you doing',
+    time: '2:30AM',
+    seen: false,
+    status: 'In-progress',
+    type: 'Actionable',
+  },
+
+  {
+    name: 'Buddy Jones',
+    message: 'Lets start workng on that project',
+    time: '2:30AM',
+    seen: false,
+    status: 'Overdue',
+    type: 'Informative',
+  },
+  {
+    name: 'Nevada Rulssell',
+    message: 'We need to get that working',
+    time: '1:30PM',
+    seen: true,
+    status: 'In-progress',
+    type: 'Actionable',
+  },
+  {
+    name: 'Captain Sharknel',
+    message: 'We need to get that working',
+    time: '2:30AM',
+    seen: false,
+    type: 'Informative',
+  },
+  {
+    name: 'Jenny Hopps',
+    message: 'We need to get that working',
+    time: '2:30AM',
+    seen: false,
+    type: 'Actionable',
+  },
+  {
+    name: 'Marvin McKinney',
+    message: 'We need to get that working',
+    time: '1:30PM',
+    seen: true,
+  },
+  {
+    name: 'Jenny Hopps',
+    message: 'We need to get that working',
+    time: '2:30AM',
+    seen: false,
+    type: 'Actionable',
+  },
+  {
+    name: 'Jenny Hopps',
+    message: 'We need to get that working',
+    time: '2:30AM',
+    seen: false,
+    type: 'Informative',
+  },
+  {
+    name: 'Marvin McKinney',
+    message: 'We need to get that working',
+    time: '1:30PM',
+    seen: true,
+    type: 'Actionable',
+  },
+  {
+    name: 'Jenny Hopps',
+    message: 'We need to get that working',
+    time: '2:30AM',
+    seen: false,
+    type: 'Informative',
+  },
+];

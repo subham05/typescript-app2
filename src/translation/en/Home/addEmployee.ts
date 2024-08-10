@@ -1,0 +1,15 @@
+export default {
+  name: 'Name of employee',
+  dropdownPlaceholder: 'Select company',
+  workEmail: 'Work email',
+  workEmailPlaceholder: 'Work email address',
+  contactNumber: 'Contact number',
+  alternate_contactNumber: 'Alternate contact number',
+  address: 'Residence address ',
+  designation: 'Designation',
+  nameError: 'Employee name is required',
+  edit: 'Edit details',
+  alert: 'Are you sure want to delete this Employee?',
+  extensionNumber: 'Extension number',
+  extensionNumberPlaceholder: '(219) 555-0114',
+};

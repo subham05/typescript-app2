@@ -1,0 +1,15 @@
+export default {
+  name: 'اسم الموظف',
+  dropdownPlaceholder: 'اختر الشركة',
+  workEmail: 'البريد الإلكتروني العمل',
+  workEmailPlaceholder: 'عنوان البريد الإلكتروني للعمل',
+  contactNumber: 'رقم الاتصال',
+  alternate_contactNumber: 'رقم الاتصال البديل',
+  address: 'عنوان السكن',
+  designation: 'تعيين',
+  nameError: 'اسم الموظف مطلوب',
+  edit: 'عدل التفاصيل',
+  alert: 'هل أنت متأكد أنك تريد حذف هذا الموظف؟',
+  extensionNumber: 'رقم التوصيلة',
+  extensionNumberPlaceholder: '(219) 555-0114',
+};

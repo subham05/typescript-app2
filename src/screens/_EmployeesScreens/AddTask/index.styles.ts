@@ -1,0 +1,102 @@
+import {colors} from 'common/theme/colors';
+import {FontSizes} from 'common/theme/font';
+import {StyleSheet} from 'react-native';
+
+export const Styles = () => {
+  const mergeStyles = StyleSheet.create({
+    companiesContainer: {
+      paddingBottom: 40,
+    },
+    inputDate: {
+      height: 40,
+      borderWidth: 1,
+      padding: 10,
+      marginTop: 5,
+      backgroundColor: colors.white,
+      borderColor: colors.white,
+      justifyContent: 'space-between',
+    },
+    calendar: {
+      right: 10,
+    },
+    icon: {
+      marginTop: 20,
+      right: 5,
+    },
+    date: {
+      color: colors.primary_003,
+    },
+    dropdown: {
+      padding: 10,
+      borderWidth: 1,
+      marginTop: 5,
+      fontSize: 15,
+      borderColor: colors.white,
+      backgroundColor: colors.white,
+      borderRadius: 5,
+      color: colors.grey_004,
+    },
+    dropdownContainer: {
+      borderColor: colors.grey_005,
+    },
+    modalContainer: {
+      height: 400,
+    },
+    error: {
+      fontSize: FontSizes.small,
+      color: colors.red,
+    },
+    label: {
+      marginTop: 15,
+    },
+    add: {
+      padding: 15,
+      textAlign: 'center',
+      color: colors.white,
+    },
+    addButton: {
+      marginTop: 15,
+      backgroundColor: colors.primary,
+    },
+    addMore: {
+      padding: 15,
+      textAlign: 'center',
+      color: colors.primary,
+    },
+    addMoreButton: {
+      marginTop: 15,
+      backgroundColor: colors.grey_001,
+      width: '47%',
+      borderWidth: 1,
+      borderColor: colors.primary,
+    },
+    buttonView: {
+      justifyContent: 'space-between',
+    },
+    fieldView: {
+      width: '47%',
+      borderRadius: 3,
+    },
+    priority: {
+      marginTop: 5,
+    },
+    attachFile: {
+      color: colors.primary,
+      marginTop: 16,
+      marginBottom: 10,
+    },
+    subtask: {
+      marginRight: '10%',
+    },
+    item: {
+      padding: 17,
+      // flexDirection: 'row',
+      // justifyContent: 'space-between',
+      // alignItems: 'center',
+    },
+    placeholderStyle: {
+      fontSize: FontSizes.small,
+    },
+  });
+  return mergeStyles;
+};
